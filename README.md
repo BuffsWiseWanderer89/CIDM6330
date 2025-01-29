@@ -5,13 +5,13 @@ For CIDM 6330 - Software Engineering
 A small beach cleanup program relies on volunteers to collect, count, and dispose of discarded cigarette butts. The manual counting portion of this process proves to be time consuming. Other methods of measurement are either difficult or imprecise such as visual estimation or measuring by weight as the butts can be of varying sizes and can sometimes be waterlogged. Manually counting requires physically touching the butts is also undesirable and unsanitary for volunteers.
 
 # The domain of practice or interest in which this problem is situated
-This domain of practice for this problem is environmental advocacy and tracking. It will require knowledge in at least and not limited to: 
-	1. Mobile app development
-	2. Image recognition
-	3. Cloud storage and Processing
-	4. Backend and APIs
-	5. Dashboards and Analytics
-	6. Location Services
+This domain of practice for this problem is environmental advocacy and tracking. It will require knowledge in at least and not limited to:
+1. Mobile app development
+2. Image recognition
+3. Cloud storage and Processing
+4. Backend and APIs
+5. Dashboards and Analytics
+6. Location Services
 
 Many of these areas can be vertically integrated using google cloud platform but there are other services available as well. If we want to have cross platform viability with a single codebase then I will likely need to learn React/Javascript.
 
