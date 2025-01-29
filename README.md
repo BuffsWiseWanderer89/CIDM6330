@@ -20,4 +20,3 @@ I am a volunteer Treasurer for the Galveston chapter of the environmental advoca
 
 # What sort of system you want to prototype that would allow you to better understand the problem, problem domain, or design considerations thereon.
 I want to prototype a mobile application that makes it easier and more efficient for volunteers to collect cigarette butts. The basic premise is that volunteers can take photos of the butts collected using a dedicated mobile application on their smartphone that will upload the images to a cloud based image recognition program to count the number of butts collected which will then feed data into a postgres database and then a live online dashboard.
-![image](https://github.com/user-attachments/assets/289020d0-5fdd-45db-b353-fdcf7a79235d)
