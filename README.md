@@ -47,10 +47,6 @@ Scenario: Volunteer (User) Photographs Cigarette Butts
 <br> &nbsp;      And   the count is stored in a PostGreSQL database
 <br> &nbsp;      And   the data is displayed on a live dashboard
 
-###  Scenario: Image recognition and cigarette butt count
-Given a volunteer is using the mobile app while collecting cigarette butt canisters
-When they take a photo
-
 ## Specifications
 
 ###  Concept
