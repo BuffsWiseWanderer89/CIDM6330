@@ -60,6 +60,7 @@ When they take a photo
 ###  Interfaces (Controls)
 
 ### Behaviors
-      Feature/PackageA
-      
+Feature/PackageA
+![UML_Class_Diagram drawio (1)](https://github.com/user-attachments/assets/c7febc47-feff-4cc1-ba3d-3642ba321d6e)
+
   Feature/PackageN
