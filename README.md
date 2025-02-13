@@ -63,4 +63,5 @@ When they take a photo
 Feature/PackageA
 ![UML_Class_Diagram drawio (1)](https://github.com/user-attachments/assets/c7febc47-feff-4cc1-ba3d-3642ba321d6e)
 
-  Feature/PackageN
+Feature/PackageN
+![UML_Activity_Diagram drawio (1)](https://github.com/user-attachments/assets/d196c118-1bc7-4a75-a85c-56f4099bab67)
