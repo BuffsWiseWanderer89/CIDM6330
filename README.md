@@ -22,10 +22,18 @@ Many of these areas can be vertically integrated using google cloud platform but
   I want to prototype a mobile application that makes it easier and more efficient for volunteers to collect cigarette butts. The basic premise is that volunteers can take photos of the butts collected using a dedicated mobile application on their smartphone that will upload the images to a cloud based image recognition program to count the number of butts collected which will then feed data into a postgres database and then a live online dashboard. To increase user engagement (for the greater good) it may be wise to gamify the collection of trash to motivate users to seek out more cleanup opportunities.
 
 
+
+
+
+
 ## Introduction
 
   This project addresses the inefficiency and unsanitary conditions of manually counting cigarette butts during beach cleanups. We propose a mobile app to streamline this process using image recognition and cloud technology. Situated in environmental advocacy, the app will enhance volunteer efforts by automating data collection and providing real-time analytics.
   As a volunteer Treasurer for the Surfrider Foundation's Galveston chapter, I am invested in expanding our 'Hold On To Your Butts' initiative. This app will enable volunteers to photograph collected butts, automatically count them, and visualize data on a live dashboard, supporting broader conservation efforts.
+
+## Table of Contents
+
+
 
 ## Requirements Statements
 
