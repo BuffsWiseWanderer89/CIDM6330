@@ -1,0 +1,21 @@
+from pydantic import BaseModel
+from datetime import datetime
+from typing import List, Optional
+
+### **Create a User Model**
+
+class UserModel(BaseModel):
+  username: str
+  user_id : int
+  role: str
+  email: str
+
+### **Create Photo Model**
+
+class PhotoModel(BaseModel):
+  photo_id: int
+  imag_url: str
+  location: str
+  timestamp: datetime
+  user_id: int
+  user: UserModel
