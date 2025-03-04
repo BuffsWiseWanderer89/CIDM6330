@@ -1,3 +1,6 @@
+'' Issues: unable to complete API portion. Attempted to ameliorate the issue of connection refusals for testing on local machine. Will continue to work on this ''
+
+
 ## Code for ERD is in 'ERD Diagram.drawio'
 
 ## Code for Pydantic Models
