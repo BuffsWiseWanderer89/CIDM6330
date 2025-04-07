@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.12">
+  <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
+    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-2" target="js3Xc6WZIwDNGqo-Ipel-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-3" target="js3Xc6WZIwDNGqo-Ipel-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-3" value="take photo" style="html=1;whiteSpace=wrap;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-5" target="js3Xc6WZIwDNGqo-Ipel-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-5" value="upload photo" style="html=1;whiteSpace=wrap;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-6" target="js3Xc6WZIwDNGqo-Ipel-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-6" target="js3Xc6WZIwDNGqo-Ipel-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-6" value="process image" style="html=1;whiteSpace=wrap;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-7" target="js3Xc6WZIwDNGqo-Ipel-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-7" value="store data" style="html=1;whiteSpace=wrap;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-8" value="display data" style="html=1;whiteSpace=wrap;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-9" target="js3Xc6WZIwDNGqo-Ipel-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-9" value="count cigarette butts" style="html=1;whiteSpace=wrap;rounded=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.719;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="js3Xc6WZIwDNGqo-Ipel-5" target="js3Xc6WZIwDNGqo-Ipel-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js3Xc6WZIwDNGqo-Ipel-19" value="&lt;span&gt;if upload fails, attempt again&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="js3Xc6WZIwDNGqo-Ipel-18">
+          <mxGeometry x="0.0684" y="-1" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
