@@ -3,7 +3,7 @@ from repository.base import Repository
 from ..models import User, Photo
 
 class CSVRepository(Repository):
-    def __init__(self, model, filename="data.csv", pk_field="id"):
+    def __init__(self, model, filename="data.csv", pk_field="object_id"):
         self.filename = filename
         self.model = model
         self.pk_field = pk_field
@@ -23,11 +23,11 @@ class CSVRepository(Repository):
     # Reads CSV file by id and returns the object
     # This method reads the CSV file and returns the object with the specified id.
     # If the object is not found, it returns None.
-    def read(self, id):
+    def read(self, object_id):
         with open(self.filename, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if int(row[self.pk_field]) == id:
+                if int(row[self.pk_field]) == object_id:
                     return self.model(**row)
         return None
 
@@ -44,7 +44,7 @@ class CSVRepository(Repository):
             with open(self.filename, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    if int(row[self.pk_field]) == id:
+                    if int(row[self.pk_field]) == object_id:
                         rows.append(obj.dict())
                         updated = True
                     else:
@@ -56,13 +56,13 @@ class CSVRepository(Repository):
                     writer.writerows(rows)
             return obj if updated else None
 
-    def delete(self, id):
+    def delete(self, object_id):
         rows = []
         deleted = False
         with open(self.filename, 'r') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if int(row[self.pk_field]) != id:
+                if int(row[self.pk_field]) != object_id:
                     rows.append(row)
                 else:
                     deleted = True
