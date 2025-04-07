@@ -1,6 +1,10 @@
 from datetime import datetime
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
+from repository.db import get_session
+from repository.sqlmodel_repo import SQLModelRepository
 from pydantic import BaseModel
+from models import User, Photo
+from sqlmodel import Session
 
 app = FastAPI()
 
@@ -33,3 +37,10 @@ class PhotoModel(BaseModel):
 @app.post("/photos", response_model=PhotoModel)
 def create_photo(photo: PhotoModel):
     return photo
+
+def get_user_repo(session: Session = Depends(get_session)):
+    return SQLModelRepository(User, session)
+
+@app.get("/users")
+def list_users(repo: SQLModelRepository = Depends(get_user_repo)):
+    return repo.list_all()
