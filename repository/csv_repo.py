@@ -1,6 +1,6 @@
 import csv
-from repository.base import Repository
-from ..models import User, Photo
+from .base import Repository
+from models import Photo
 
 class CSVRepository(Repository):
     def __init__(self, model, filename="data.csv", pk_field="object_id"):
@@ -34,27 +34,27 @@ class CSVRepository(Repository):
     # Returns a list of all objects in the CSV file
     # This method reads the CSV file and returns a list of all objects.
 
-    def list_all(self, obj):
+    def list_all(self):
         with open(self.filename, 'r', encoding='utf-8') as f:
             return [self.model(**row) for row in csv.DictReader(f)]
 
     def update(self, obj_id, obj):
-            rows = []
-            updated = False
-            with open(self.filename, 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    if int(row[self.pk_field]) == object_id:
-                        rows.append(obj.dict())
-                        updated = True
-                    else:
-                        rows.append(row)
-            if updated:
-                with open(self.filename, 'w', newline='', encoding='utf-8') as f:
-                    writer = csv.DictWriter(f, fieldnames=obj.dict().keys())
-                    writer.writeheader()
-                    writer.writerows(rows)
-            return obj if updated else None
+        rows = []
+        updated = False
+        with open(self.filename, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if int(row[self.pk_field]) == obj_id:
+                    rows.append(obj.dict())
+                    updated = True
+                else:
+                    rows.append(row)
+        if updated:
+            with open(self.filename, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=obj.dict().keys())
+                writer.writeheader()
+                writer.writerows(rows)
+        return obj if updated else None
 
     def delete(self, object_id):
         rows = []

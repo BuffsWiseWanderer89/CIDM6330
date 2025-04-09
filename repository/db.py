@@ -1,4 +1,4 @@
-from sqlmodel import Session, SQLModel, create_engine
+from sqlmodel import Session, create_engine
 from sqlalchemy.orm import sessionmaker
 
 DATABASE_URL = "sqlite:///database.db"
@@ -9,4 +9,3 @@ SessionLocal = sessionmaker(bind=engine, class_=Session, expire_on_commit=False)
 def get_session():
     with SessionLocal() as session:
         yield session
-    
