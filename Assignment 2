@@ -27,6 +27,7 @@ class PhotoModel(BaseModel):
 ## Code for creating API in Python using FastAPI
 
 ### bash
+"""
 pip install fastapi uvicorn
 
 pip show fastapi
@@ -34,6 +35,7 @@ pip show uvicorn
 
 mkdir fastapi_buttapp
 cd fastapi_buttapp
+"""
 
 from datetime import datetime
 from fastapi import FastAPI
